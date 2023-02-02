@@ -1,0 +1,93 @@
+@import './contants.scss';
+
+.bg-primary {
+  background: #F8F7F1;
+}
+
+.innerWidth {
+  @media (min-width: $xxl) {
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  width: 100%;
+}
+
+.paddings {
+  @media (min-width: $sm) {
+    padding: 4rem;
+  }
+
+
+  @media (min-width: $xl),
+  (min-width: $md) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexStart {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flexEnd {
+  display: flex;
+  justify-items: end;
+}
+
+.primaryText {
+  @media (max-width: $sm) {
+    font-size: 2.5rem;
+  }
+
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.secondaryText {
+  @media (max-width: $sm) {
+    font-size: 1.1rem;
+    line-height: 40px;
+  }
+
+  line-height: 50px;
+  font-size: 1.3rem;
+  font-weight: 500
+}
+a {
+  text-decoration: none;
+  color: #0D2F3F;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(130, 130, 243);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p{
+  font-size: 14px;
+}

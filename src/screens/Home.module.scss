@@ -1,0 +1,47 @@
+@import '../styles/contants.scss';
+
+.wrapper {
+  background-color: rgb(229, 240, 240);
+}
+
+.cardWrapper{
+  min-height: 75vh;
+}
+
+.item {
+  align-items: center;
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.disabledPage {
+  color: #808e9b;
+}
+
+.active {
+  border: solid 1px #808e9b;
+  border-radius: 20px;
+  color: #808e9b;
+}
+
+.pagination {
+  align-items: center;
+  background-color: #e5f0f0;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: space-between;
+  list-style-type: none;
+  position: relative;
+  margin: auto;
+  width: 60%;
+}
+
+.paginationPage {
+  font-weight: 700;
+}
